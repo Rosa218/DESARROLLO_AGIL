@@ -84,16 +84,11 @@
   <style scoped>
   
 .container {
-  
-  min-height: 100vh;
-  background-color: transparent; /* Negro con transparencia */
-  backdrop-filter: blur(4px); /* Difumina el fondo si hay algo detrás */
-  font-family: 'Lora', serif;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-
-
+  background: linear-gradient(135deg, #12027a, #4b047e);
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(70, 26, 26, 0.2);
+  max-width: 1000px;
+  margin: auto;
 }
 
 .table {

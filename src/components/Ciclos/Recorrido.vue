@@ -69,13 +69,11 @@ li {
 
 
 .container {
-    min-height: 100vh;
-  background-color: transparent; /* Negro con transparencia */
-  backdrop-filter: blur(4px); /* Difumina el fondo si hay algo detrás */
-  font-family: 'Lora', serif;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+    padding: 20px;
+    text-align:justify;
+    background-color: #bdc3c7; /* Color gris */
+    border-radius: 15px;
+    margin-top: 20px;
 }
 
 strong {
